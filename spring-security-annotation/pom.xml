@@ -17,13 +17,7 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-	<developers>
-		<developer>
-			<id>mkyong</id>
-			<name>Yong Mook Kim</name>
-			<email>mkyong2002@gmail.com</email>
-		</developer>
-	</developers>
+
 	<properties>
 		<jdk.version>1.6</jdk.version>
 		<spring.version>3.2.8.RELEASE</spring.version>
