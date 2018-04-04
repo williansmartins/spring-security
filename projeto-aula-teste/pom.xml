@@ -13,6 +13,7 @@
 		<jdk.version>1.8</jdk.version>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<jackson.version>1.9.10</jackson.version>
+		<spring.security.version>3.2.3.RELEASE</spring.security.version>
 	</properties>
 
 	<dependencies>
@@ -34,6 +35,19 @@
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>${jackson.version}</version>
+		</dependency>
+		
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${spring.security.version}</version>
 		</dependency>
 	</dependencies>
 
