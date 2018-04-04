@@ -2,7 +2,6 @@
 /.classpath
 .classpath
 /.project
-/.settings
-/.settings/*
+.settings
 /bin
 /bin/*
